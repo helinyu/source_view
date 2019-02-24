@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/RunCMake/exit_code.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

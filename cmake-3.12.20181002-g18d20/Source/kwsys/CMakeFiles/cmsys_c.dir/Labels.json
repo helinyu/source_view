@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/ProcessUNIX.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/Base64.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/EncodingC.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/MD5.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/Terminal.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/System.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/String.c"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/Configure.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/SharedForward.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/Process.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/Base64.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/Encoding.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/MD5.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/Terminal.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/System.h"
+		},
+		{
+			"file" : "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/cmsys/String.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [],
+		"name" : "cmsys_c"
+	}
+}

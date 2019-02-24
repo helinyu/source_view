@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests
+# Build directory: /Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(CMake.List "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/ListTest.cmake")
+add_test(CMake.VariableWatch "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/VariableWatchTest.cmake")
+add_test(CMake.Include "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/IncludeTest.cmake")
+add_test(CMake.FindBase "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/FindBaseTest.cmake")
+add_test(CMake.Toolchain "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/ToolchainTest.cmake")
+add_test(CMake.GetFilenameComponentRealpath "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake")
+add_test(CMake.Version "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/VersionTest.cmake")
+add_test(CMake.Message "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/MessageTest.cmake")
+add_test(CMake.File "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/FileTest.cmake")
+add_test(CMake.ImplicitLinkInfo "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/ImplicitLinkInfoTest.cmake")
+add_test(CMake.ModuleNotices "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/ModuleNoticesTest.cmake")
+add_test(CMake.GetProperty "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/GetPropertyTest.cmake")
+add_test(CMake.If "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/IfTest.cmake")
+add_test(CMake.String "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/StringTest.cmake")
+add_test(CMake.Math "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/MathTest.cmake")
+add_test(CMake.CMakeMinimumRequired "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake")
+add_test(CMake.CompilerIdVendor "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/CompilerIdVendorTest.cmake")
+add_test(CMake.ProcessorCount "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-DKWSYS_TEST_EXE=/Users/felix/source_view/cmake-3.12.20181002-g18d20/Source/kwsys/cmsysTestsCxx" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/ProcessorCountTest.cmake")
+add_test(CMake.PushCheckState "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/PushCheckStateTest.cmake")
+add_test(CMake.While "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/WhileTest.cmake")
+add_test(CMake.CMakeHostSystemInformation "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/CMakeHostSystemInformationTest.cmake")
+add_test(CMake.FileDownload "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/FileDownloadTest.cmake")
+set_tests_properties(CMake.FileDownload PROPERTIES  PASS_REGULAR_EXPRESSION "file already exists with expected MD5 sum")
+add_test(CMake.FileDownloadBadHash "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/FileDownloadBadHashTest.cmake")
+set_tests_properties(CMake.FileDownloadBadHash PROPERTIES  WILL_FAIL "TRUE")
+add_test(CMake.FileUpload "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/FileUploadTest.cmake")
+add_test(CMake.EndStuff "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-Ddir:STRING=/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/EndStuffTest" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/EndStuffTest.cmake")
+add_test(CMake.GetPrerequisites "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-DConfiguration:STRING=" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/GetPrerequisitesTest.cmake")
+add_test(CMake.PolicyCheck "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-DCMake_BINARY_DIR:PATH=/Users/felix/source_view/cmake-3.12.20181002-g18d20" "-DCMake_SOURCE_DIR:PATH=/Users/felix/source_view/cmake-3.12.20181002-g18d20" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/PolicyCheckTest.cmake")
+add_test(CMake.CheckSourceTree "/Users/felix/source_view/cmake-3.12.20181002-g18d20/bin/cmake" "-DCMake_BINARY_DIR:PATH=/Users/felix/source_view/cmake-3.12.20181002-g18d20" "-DCMake_SOURCE_DIR:PATH=/Users/felix/source_view/cmake-3.12.20181002-g18d20" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-DHOME:STRING=/Users/felix" "-P" "/Users/felix/source_view/cmake-3.12.20181002-g18d20/Tests/CMakeTests/CheckSourceTreeTest.cmake")

@@ -1,0 +1,1 @@
+set(DPKG_EXECUTABLE "/opt/local/bin/dpkg")
