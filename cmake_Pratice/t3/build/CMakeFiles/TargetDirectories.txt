@@ -1,0 +1,5 @@
+/Users/felix/source_view/cmake_Pratice/t3/build/CMakeFiles/rebuild_cache.dir
+/Users/felix/source_view/cmake_Pratice/t3/build/CMakeFiles/edit_cache.dir
+/Users/felix/source_view/cmake_Pratice/t3/build/lib/CMakeFiles/rebuild_cache.dir
+/Users/felix/source_view/cmake_Pratice/t3/build/lib/CMakeFiles/edit_cache.dir
+/Users/felix/source_view/cmake_Pratice/t3/build/lib/CMakeFiles/hello.dir

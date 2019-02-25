@@ -1,0 +1,11 @@
+#cmake_minimum_required(VERSION 3.12)
+PROJECT(HELLO)
+#aux_source_directory(. SRC_LIST)
+set(SRC_LIST ${PROJECT_SOURCE_DIR}/main.c)
+#SET(SRC_LIST "main.c")
+MESSAGE(STATUS "this is binary dir" ${PROJECT_BINARY_DIR})
+MESSAGE(STATUS "this is source dir" ${PROJECT_SOURCE_DIR})
+ADD_EXECUTABLE(a.out SRC_LIST)
+
+PROJECT(HELLO)
+ADD_EXECUTABLE(a.out main.c)

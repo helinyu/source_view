@@ -1,0 +1,3 @@
+/Users/felix/source_view/cmake_Pratice/1/CMakeFiles/rebuild_cache.dir
+/Users/felix/source_view/cmake_Pratice/1/CMakeFiles/edit_cache.dir
+/Users/felix/source_view/cmake_Pratice/1/CMakeFiles/a.out.dir
